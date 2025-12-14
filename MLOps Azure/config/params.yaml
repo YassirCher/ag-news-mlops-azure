@@ -1,0 +1,56 @@
+﻿project:
+  name: ag-news-classification
+  version: 1.0.0
+  description: Production SVM text classifier for AG News
+
+data:
+  train_path: data/raw/train.csv
+  test_path: data/raw/test.csv
+  processed_path: data/processed
+  
+dataset:
+  num_classes: 4
+  classes:
+    - World
+    - Sports
+    - Business
+    - Science/Tech
+  test_size: 0.1
+  random_state: 42
+
+preprocessing:
+  remove_stopwords: true
+  lemmatize: true
+  min_word_length: 3
+  
+tfidf:
+  max_features: 15000
+  ngram_range:
+    - 1
+    - 2
+  min_df: 3
+  max_df: 0.95
+  sublinear_tf: true
+
+model:
+  name: LinearSVC
+  max_iter: 2000
+  random_state: 42
+  
+mlflow:
+  experiment_name: ag-news-svm-production
+  tracking_uri: file:./mlruns
+  
+api:
+  title: AG News Classifier API
+  version: 1.0.0
+  description: REST API for AG News text classification
+  host: 0.0.0.0
+  port: 8000
+  
+azure:
+  resource_group: ag-news-mlops-rg
+  location: eastus
+  container_registry: agnewsmlops
+  container_instance: ag-news-api
+  subscription_id: ''
