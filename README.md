@@ -46,7 +46,8 @@ t)
 
 ### 🔹 Azure Resources
 <!-- Replace with screenshot of your Azure Resource Group (ACR + ACI + App Insights) -->
-![Azure Portal](<img width="1207" height="113" alt="image" src="https://github.com/user-attachments/assets/ce83231a-ae69-4e0e-bea6-347f4dff4b0f" />
+![Azure Portal](<img width="1207" height="113" alt="image" src="https://github.com/user-attachments/assets/d98e5b96-96b9-4932-b1e0-be3a192776bc" />
+
 )
 *Deployed resources: Container Registry, Container Instance, and Application Insights.*
 
