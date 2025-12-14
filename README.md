@@ -40,6 +40,20 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 
 ---
 
+## ⚙️ Deployment & CI/CD Visuals
+
+### 🔹 GitHub Actions Pipeline
+<!-- Replace with screenshot of your GitHub Actions 'Success' run -->
+![GitHub Actions](https://via.placeholder.com/800x200?text=GitHub+Actions+Workflow+Success)
+*Automated build and deploy pipeline triggered on push.*
+
+### 🔹 Azure Resources
+<!-- Replace with screenshot of your Azure Resource Group (ACR + ACI + App Insights) -->
+![Azure Portal](https://via.placeholder.com/800x400?text=Azure+Portal+Resources)
+*Deployed resources: Container Registry, Container Instance, and Application Insights.*
+
+---
+
 ## �🛠️ Tech Stack
 
 | Category | Technology |
@@ -204,7 +218,3 @@ The project uses **GitHub Actions** for continuous integration and deployment.
 ## 📝 License
 
 This project is licensed under the MIT License.
-
-
-
-
