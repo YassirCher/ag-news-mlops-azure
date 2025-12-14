@@ -45,3 +45,5 @@ Edit \config/params.yaml\ for hyperparameters.
 ## 📝 License
 
 MIT
+
+## CI/CD Pipeline Active 🚀
