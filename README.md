@@ -13,7 +13,6 @@ This project demonstrates a production-ready **End-to-End MLOps Pipeline** for a
 The pipeline includes model training, containerization, cloud deployment on Azure, and automated CI/CD with GitHub Actions.
 
 ---
-
 ## 🚀 Key Features
 
 - **🤖 NLP Model**: Linear SVM with TF-IDF Vectorization (91.34% Accuracy).
@@ -30,7 +29,8 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 
 ### 🔹 Single Text Prediction
 <!-- Replace the path below with your actual image path, e.g., docs/images/single_pred.png -->
-![Single Prediction](<img width="688" height="664" alt="image" src="https://github.com/user-attachments/assets/6dbb8091-9be5-46e7-b28c-c5b75e6402ee" />)
+![Single Prediction](<img width="688" height="664" alt="image" src="https://github.com/user-attachments/assets/6dbb8091-9be5-46e7-b28c-c5b75e6402ee" />
+t)
 *Enter text and get real-time classification.*
 
 
