@@ -12,7 +12,20 @@ This project demonstrates a production-ready **End-to-End MLOps Pipeline** for a
 
 The pipeline includes model training, containerization, cloud deployment on Azure, and automated CI/CD with GitHub Actions.
 
+### 🏗️ Architecture
+
+```mermaid
+graph LR
+    A[Push Code to GitHub] -->|Trigger| B(GitHub Actions)
+    B -->|Build| C{Docker Image}
+    C -->|Push| D[Azure Container Registry]
+    D -->|Pull| E[Azure Container Instance]
+    E -->|Serve| F[FastAPI Endpoint]
+    F -->|Consume| G[Streamlit UI]
+```
+
 ---
+
 ## 🚀 Key Features
 
 - **🤖 NLP Model**: Linear SVM with TF-IDF Vectorization (91.34% Accuracy).
@@ -22,7 +35,11 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 - **🔄 CI/CD**: Automated pipeline using GitHub Actions.
 - **📊 Monitoring**: Integrated with Azure Application Insights.
 - **🎨 Frontend**: Interactive UI built with Streamlit.
-
+### 💡 Why MLOps?
+In traditional ML workflows, models often stay in notebooks (`.ipynb`). This project bridges the gap between research and production by:
+- **Automating delivery**: Eliminating manual deployment errors via CI/CD.
+- **Ensuring scalability**: Using containerization (Docker) to run anywhere.
+- **Observability**: Monitoring real-time usage and health via Azure Insights.
 ---
 
 ## � App Demo
