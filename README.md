@@ -26,7 +26,21 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 
 ---
 
-## 🛠️ Tech Stack
+## � App Demo
+
+### 🔹 Single Text Prediction
+<!-- Replace the path below with your actual image path, e.g., docs/images/single_pred.png -->
+![Single Prediction](https://via.placeholder.com/800x400?text=Upload+Single+Prediction+Screenshot)
+*Enter text and get real-time classification.*
+
+### 🔹 Batch Prediction
+<!-- Replace the path below with your actual image path -->
+![Batch Prediction](https://via.placeholder.com/800x400?text=Upload+Batch+Prediction+Screenshot)
+*Upload a CSV file to classify multiple news articles at once.*
+
+---
+
+## �🛠️ Tech Stack
 
 | Category | Technology |
 |----------|------------|
