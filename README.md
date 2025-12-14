@@ -41,12 +41,14 @@ t)
 
 ### 🔹 GitHub Actions Pipeline
 <!-- Replace with screenshot of your GitHub Actions 'Success' run -->
-![GitHub Actions](https://via.placeholder.com/800x200?text=GitHub+Actions+Workflow+Success)
+![GitHub Actions](<img width="983" height="151" alt="image" src="https://github.com/user-attachments/assets/e9026262-e422-4499-abe9-719f1548e1b6" />
+)
 *Automated build and deploy pipeline triggered on push.*
 
 ### 🔹 Azure Resources
 <!-- Replace with screenshot of your Azure Resource Group (ACR + ACI + App Insights) -->
-![Azure Portal](https://via.placeholder.com/800x400?text=Azure+Portal+Resources)
+![Azure Portal](<img width="1207" height="113" alt="image" src="https://github.com/user-attachments/assets/ce83231a-ae69-4e0e-bea6-347f4dff4b0f" />
+)
 *Deployed resources: Container Registry, Container Instance, and Application Insights.*
 
 ---
