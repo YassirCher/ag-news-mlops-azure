@@ -29,8 +29,7 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 
 ### 🔹 Single Text Prediction
 <!-- Replace the path below with your actual image path, e.g., docs/images/single_pred.png -->
-![Single Prediction](<img width="688" height="664" alt="image" src="https://github.com/user-attachments/assets/6dbb8091-9be5-46e7-b28c-c5b75e6402ee" />
-t)
+<img width="688" height="664" alt="image" src="https://github.com/user-attachments/assets/6dbb8091-9be5-46e7-b28c-c5b75e6402ee" />
 *Enter text and get real-time classification.*
 
 
@@ -40,17 +39,17 @@ t)
 
 ### 🔹 GitHub Actions Pipeline
 <!-- Replace with screenshot of your GitHub Actions 'Success' run -->
-(<img width="977" height="149" alt="image" src="https://github.com/user-attachments/assets/91136a5d-dfa8-40d7-a679-d80e11a9368e" />
+<img width="977" height="149" alt="image" src="https://github.com/user-attachments/assets/91136a5d-dfa8-40d7-a679-d80e11a9368e" />
 
-)
+
 
 *Automated build and deploy pipeline triggered on push.*
 
 ### 🔹 Azure Resources
 <!-- Replace with screenshot of your Azure Resource Group (ACR + ACI + App Insights) -->
-(<img width="1207" height="113" alt="image" src="https://github.com/user-attachments/assets/d98e5b96-96b9-4932-b1e0-be3a192776bc" />
+<img width="1207" height="113" alt="image" src="https://github.com/user-attachments/assets/d98e5b96-96b9-4932-b1e0-be3a192776bc" />
 
-)
+
 *Deployed resources: Container Registry, Container Instance, and Application Insights.*
 
 ---
