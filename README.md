@@ -30,13 +30,10 @@ The pipeline includes model training, containerization, cloud deployment on Azur
 
 ### 🔹 Single Text Prediction
 <!-- Replace the path below with your actual image path, e.g., docs/images/single_pred.png -->
-![Single Prediction](https://via.placeholder.com/800x400?text=Upload+Single+Prediction+Screenshot)
+![Single Prediction](<img width="688" height="664" alt="image" src="https://github.com/user-attachments/assets/6dbb8091-9be5-46e7-b28c-c5b75e6402ee" />
+t)
 *Enter text and get real-time classification.*
 
-### 🔹 Batch Prediction
-<!-- Replace the path below with your actual image path -->
-![Batch Prediction](https://via.placeholder.com/800x400?text=Upload+Batch+Prediction+Screenshot)
-*Upload a CSV file to classify multiple news articles at once.*
 
 ---
 
